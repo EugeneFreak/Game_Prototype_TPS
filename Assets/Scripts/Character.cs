@@ -19,7 +19,7 @@ public class Character
 
 	public virtual void PrintStatsInfo()
 	{
-		Debug.LogFormat($"Hero: {name} - {exp} EXP");
+		//Debug.LogFormat($"Hero: {name} - {exp} EXP");
 	}
 
 	private void Reset()
@@ -42,7 +42,7 @@ public struct Weapon
 
 	public void PrintStatsInfo()
 	{
-		Debug.LogFormat($"Weapon: {name} - damage: {damage}");
+		//Debug.LogFormat($"Weapon: {name} - damage: {damage}");
 	}
 }
 
