@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "W:\\UnityProjects\\BookProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F911DF15-AD72-7F74-11C3-BD1383DA691A}|Assembly-CSharp.csproj|w:\\unityprojects\\bookproject\\assets\\scripts\\playerbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F911DF15-AD72-7F74-11C3-BD1383DA691A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F911DF15-AD72-7F74-11C3-BD1383DA691A}|Assembly-CSharp.csproj|w:\\unityprojects\\bookproject\\assets\\scripts\\learningcurve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F911DF15-AD72-7F74-11C3-BD1383DA691A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\learningcurve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F911DF15-AD72-7F74-11C3-BD1383DA691A}|Assembly-CSharp.csproj|W:\\UnityProjects\\BookProject\\assets\\scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F911DF15-AD72-7F74-11C3-BD1383DA691A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F911DF15-AD72-7F74-11C3-BD1383DA691A}|Assembly-CSharp.csproj|W:\\UnityProjects\\BookProject\\assets\\scripts\\paladin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F911DF15-AD72-7F74-11C3-BD1383DA691A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\paladin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerBehavior.cs",
+              "DocumentMoniker": "W:\\UnityProjects\\BookProject\\Assets\\Scripts\\PlayerBehavior.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerBehavior.cs",
+              "ToolTip": "W:\\UnityProjects\\BookProject\\Assets\\Scripts\\PlayerBehavior.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T15:51:29.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Paladin.cs",
+              "DocumentMoniker": "W:\\UnityProjects\\BookProject\\Assets\\Scripts\\Paladin.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Paladin.cs",
+              "ToolTip": "W:\\UnityProjects\\BookProject\\Assets\\Scripts\\Paladin.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Paladin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T14:06:22.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Character.cs",
+              "DocumentMoniker": "W:\\UnityProjects\\BookProject\\Assets\\Scripts\\Character.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character.cs",
+              "ToolTip": "W:\\UnityProjects\\BookProject\\Assets\\Scripts\\Character.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:53:35.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LearningCurve.cs",
+              "DocumentMoniker": "W:\\UnityProjects\\BookProject\\Assets\\Scripts\\LearningCurve.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LearningCurve.cs",
+              "ToolTip": "W:\\UnityProjects\\BookProject\\Assets\\Scripts\\LearningCurve.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LearningCurve.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:55:40.351Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
