@@ -3,15 +3,27 @@
   "WorkspaceRootPath": "W:\\UnityProjects\\TPS_Prototype\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EEEE6C1D-E98C-D73A-DA40-A77022246E48}|Assembly-CSharp.csproj|W:\\UnityProjects\\TPS_Prototype\\assets\\scripts\\enemybehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEEE6C1D-E98C-D73A-DA40-A77022246E48}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemybehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EEEE6C1D-E98C-D73A-DA40-A77022246E48}|Assembly-CSharp.csproj|W:\\UnityProjects\\TPS_Prototype\\assets\\scripts\\gamebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EEEE6C1D-E98C-D73A-DA40-A77022246E48}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEEE6C1D-E98C-D73A-DA40-A77022246E48}|Assembly-CSharp.csproj|w:\\unityprojects\\tps_prototype\\assets\\scripts\\playerbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EEEE6C1D-E98C-D73A-DA40-A77022246E48}|Assembly-CSharp.csproj|w:\\unityprojects\\tps_prototype\\assets\\scripts\\customextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEEE6C1D-E98C-D73A-DA40-A77022246E48}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\customextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEEE6C1D-E98C-D73A-DA40-A77022246E48}|Assembly-CSharp.csproj|w:\\unityprojects\\tps_prototype\\assets\\scripts\\imanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEEE6C1D-E98C-D73A-DA40-A77022246E48}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\imanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEEE6C1D-E98C-D73A-DA40-A77022246E48}|Assembly-CSharp.csproj|W:\\UnityProjects\\TPS_Prototype\\assets\\scripts\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEEE6C1D-E98C-D73A-DA40-A77022246E48}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEEE6C1D-E98C-D73A-DA40-A77022246E48}|Assembly-CSharp.csproj|W:\\UnityProjects\\TPS_Prototype\\assets\\scripts\\enemybehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEEE6C1D-E98C-D73A-DA40-A77022246E48}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemybehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEEE6C1D-E98C-D73A-DA40-A77022246E48}|Assembly-CSharp.csproj|W:\\UnityProjects\\TPS_Prototype\\assets\\scripts\\playerbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EEEE6C1D-E98C-D73A-DA40-A77022246E48}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -39,19 +51,57 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CustomExtensions.cs",
+              "DocumentMoniker": "W:\\UnityProjects\\TPS_Prototype\\Assets\\Scripts\\CustomExtensions.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CustomExtensions.cs",
+              "ToolTip": "W:\\UnityProjects\\TPS_Prototype\\Assets\\Scripts\\CustomExtensions.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CustomExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T16:59:04.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IManager.cs",
+              "DocumentMoniker": "W:\\UnityProjects\\TPS_Prototype\\Assets\\Scripts\\IManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\IManager.cs",
+              "ToolTip": "W:\\UnityProjects\\TPS_Prototype\\Assets\\Scripts\\IManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\IManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T11:54:09.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Utilities.cs",
+              "DocumentMoniker": "W:\\UnityProjects\\TPS_Prototype\\Assets\\Scripts\\Utilities.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Utilities.cs",
+              "ToolTip": "W:\\UnityProjects\\TPS_Prototype\\Assets\\Scripts\\Utilities.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Utilities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T11:25:58.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "GameBehavior.cs",
               "DocumentMoniker": "W:\\UnityProjects\\TPS_Prototype\\Assets\\Scripts\\GameBehavior.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameBehavior.cs",
               "ToolTip": "W:\\UnityProjects\\TPS_Prototype\\Assets\\Scripts\\GameBehavior.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameBehavior.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwEcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-11T17:07:05.55Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "BulletBehavior.cs",
               "DocumentMoniker": "W:\\UnityProjects\\TPS_Prototype\\Assets\\Scripts\\BulletBehavior.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BulletBehavior.cs",
@@ -59,12 +109,11 @@
               "RelativeToolTip": "Assets\\Scripts\\BulletBehavior.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T16:33:15.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T16:33:15.9Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "PlayerBehavior.cs",
               "DocumentMoniker": "W:\\UnityProjects\\TPS_Prototype\\Assets\\Scripts\\PlayerBehavior.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerBehavior.cs",
@@ -72,12 +121,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerBehavior.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T14:49:08.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T14:49:08.297Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "EnemyBehavior.cs",
               "DocumentMoniker": "W:\\UnityProjects\\TPS_Prototype\\Assets\\Scripts\\EnemyBehavior.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyBehavior.cs",
@@ -85,12 +133,11 @@
               "RelativeToolTip": "Assets\\Scripts\\EnemyBehavior.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwDYAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T13:27:45.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T13:27:45.566Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "ItemBehavior.cs",
               "DocumentMoniker": "W:\\UnityProjects\\TPS_Prototype\\Assets\\Scripts\\ItemBehavior.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ItemBehavior.cs",

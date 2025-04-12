@@ -1,7 +1,8 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using CustomExtensions;
 
-public class GameBehavior : MonoBehaviour
+public class GameBehavior : MonoBehaviour, IManager
 {
 	public bool showWinScreen = false;
 	public string labelText = "Coolect all 3 items wand win yr freedom!";
@@ -9,6 +10,13 @@ public class GameBehavior : MonoBehaviour
 	public bool showLossScreen = false;
 
 	private int _itemsCollected = 0;
+	private string _state;
+
+	public string State
+	{
+		get { return _state; }
+		set { _state = value; }
+	}
 
 	public int Items
 	{
@@ -52,12 +60,18 @@ public class GameBehavior : MonoBehaviour
 		}
 	}
 
-	void RestartLevel()
+	private void Start()
 	{
-		SceneManager.LoadScene(0);
-		Time.timeScale = 1f;
+		Initialize();
 	}
 
+
+	public void Initialize()
+	{
+		_state = "Manager initializide.";
+		_state.FancyDebug();
+		Debug.Log("State");
+	}
 	private void OnGUI()
 	{
 		GUI.Box( new Rect(20,20,150,25), "Player Health: " + _playerHp);
@@ -69,7 +83,7 @@ public class GameBehavior : MonoBehaviour
 			if (GUI.Button(new Rect(Screen.width / 2 - 100, Screen.height / 2 - 50, 200, 100),
 				"You won!"))
 			{
-				RestartLevel();
+				Utilities.RestartLevel(0);
 			}
 		}
 		if (showLossScreen)
@@ -77,7 +91,7 @@ public class GameBehavior : MonoBehaviour
 			if (GUI.Button(new Rect(Screen.width / 2 - 100, Screen.height / 2 - 50, 200, 100),
 				"You lose..."))
 			{
-				RestartLevel();
+				Utilities.RestartLevel();
 			}
 		}
 	}
