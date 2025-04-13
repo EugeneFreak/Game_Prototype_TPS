@@ -11,6 +11,8 @@ public class ItemBehavior : MonoBehaviour
 
 	}
 
+	
+
 	private void OnCollisionEnter(Collision collision)
 	{
 		if (collision.gameObject.name == "Player")
@@ -20,7 +22,11 @@ public class ItemBehavior : MonoBehaviour
 			Debug.Log("Item collected!");
 
 			gameManager.Items += 1;
+
+			gameManager.PrintLootReport();
 		}
 	}
+
+	
 
 }

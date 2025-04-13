@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using CustomExtensions;
+using System.Collections.Generic;
 
 public class GameBehavior : MonoBehaviour, IManager
 {
@@ -8,6 +9,10 @@ public class GameBehavior : MonoBehaviour, IManager
 	public string labelText = "Coolect all 3 items wand win yr freedom!";
 	public int maxitems = 3;
 	public bool showLossScreen = false;
+	public Stack<string> lootStack = new Stack<string>();
+	public delegate void DebugDelegate(string newText);
+	public DebugDelegate debug = Print;
+	
 
 	private int _itemsCollected = 0;
 	private string _state;
@@ -63,6 +68,9 @@ public class GameBehavior : MonoBehaviour, IManager
 	private void Start()
 	{
 		Initialize();
+		InventoryList<string> inventoryList = new InventoryList<string>();
+		inventoryList.SetItem("Potion");
+		Debug.LogFormat(inventoryList.item);
 	}
 
 
@@ -70,8 +78,35 @@ public class GameBehavior : MonoBehaviour, IManager
 	{
 		_state = "Manager initializide.";
 		_state.FancyDebug();
-		Debug.Log("State");
+		
+		lootStack.Push("Sword of the Doom");
+		lootStack.Push("HP+");
+		lootStack.Push("Golden Key");
+		lootStack.Push("Winged Boot");
+		lootStack.Push("Mythril Bracers");
+		debug(_state);
+		LogWithDelegate(debug);
+
+		GameObject player = GameObject.Find("Player");
+		PlayerBehavior playerBehavior = player.GetComponent<PlayerBehavior>();
+		playerBehavior.playerJump += HandlePlayerJump;
 	}
+
+	public void HandlePlayerJump()
+	{
+		debug("Player has jumped...");
+	}
+
+	public static void Print(string newText)
+	{
+		Debug.Log(newText);
+	}
+
+	public void LogWithDelegate(DebugDelegate del)
+	{
+		del("Delegating the debug rask...");
+	}
+
 	private void OnGUI()
 	{
 		GUI.Box( new Rect(20,20,150,25), "Player Health: " + _playerHp);
@@ -91,9 +126,35 @@ public class GameBehavior : MonoBehaviour, IManager
 			if (GUI.Button(new Rect(Screen.width / 2 - 100, Screen.height / 2 - 50, 200, 100),
 				"You lose..."))
 			{
-				Utilities.RestartLevel();
+				try
+				{
+					Utilities.RestartLevel(-1);
+					debug("Level restarted succesfully");
+				}
+				catch ( System.ArgumentException e)
+				{
+					Utilities.RestartLevel(0);
+					debug("reverting to scene 0 " + e.ToString());
+				}
+				finally
+				{
+					debug("Restart handled...");
+				}
+
+
+
+
+				
 			}
 		}
 	}
 
+	public void PrintLootReport()
+	{
+		var currentItem = lootStack.Pop();
+		var nextItem = lootStack.Peek();
+		Debug.LogFormat($"You take a {currentItem}, next item is {nextItem}");
+
+		Debug.LogFormat($"There are {lootStack.Count} random items waiting for u");
+	}
 }

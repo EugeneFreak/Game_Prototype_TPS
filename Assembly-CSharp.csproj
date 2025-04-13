@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\GameBehavior.cs" />
     <Compile Include="Assets\Scripts\Utilities.cs" />
     <Compile Include="Assets\Scripts\PlayerBehavior.cs" />
+    <Compile Include="Assets\Scripts\InventoryList.cs" />
     <Compile Include="Assets\Scripts\LearningCurve.cs" />
     <Compile Include="Assets\Scripts\IManager.cs" />
   </ItemGroup>
