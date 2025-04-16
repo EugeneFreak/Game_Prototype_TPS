@@ -128,7 +128,7 @@ public class GameBehavior : MonoBehaviour, IManager
 			{
 				try
 				{
-					Utilities.RestartLevel(-1);
+					Utilities.RestartLevel(0);
 					debug("Level restarted succesfully");
 				}
 				catch ( System.ArgumentException e)
